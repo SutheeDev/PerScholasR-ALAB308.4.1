@@ -26,7 +26,6 @@ output.splice(1, 0, {
 // { id: "7", name: "Bilbo", occupation: "None", age: "111" }
 
 output.push({ id: "7", name: "Bilbo", occupation: "None", age: "111" });
-// console.log(output);
 
 // 4. Finally, use the values of each object within the array and the array’s length property to calculate the average age of the group. This calculation should be accomplished using a loop
 
@@ -35,4 +34,6 @@ output.forEach((obj) => {
   totalAge += Number(obj.age);
 });
 const aveAge = totalAge / output.length;
-// console.log(aveAge);
+
+// Please uncomment the script tag in the index.html to see the result
+console.log(aveAge);

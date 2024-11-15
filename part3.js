@@ -29,4 +29,5 @@ strArr.forEach((rowStr) => {
   output.push(rowObj);
 });
 
+// Please uncomment the script tag in the index.html to see the result
 console.log(output);

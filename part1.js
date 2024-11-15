@@ -49,4 +49,5 @@ const printOutput = () => {
   });
 };
 
-// printOutput();
+// Please uncomment the script tag in the index.html to see the result
+printOutput();

@@ -60,4 +60,5 @@ const convertCSV = (csvStr) => {
   return output;
 };
 
-// console.log(convertCSV(str));
+// Please uncomment the script tag in the index.html to see the result
+console.log(convertCSV(str));
